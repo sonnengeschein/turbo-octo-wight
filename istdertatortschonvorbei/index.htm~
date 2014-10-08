@@ -1,0 +1,14 @@
+<html>
+<head>
+<script language="JavaScript" src="dauer.js"></script>
+<script language="JavaScript" src="countdown.js"></script>
+</head>
+<body>
+<!--<div id="cID">  Init<script>countdown(100000,'cID');</script></div>
+<span id="cID2">Init<script>countdown(10050,'cID2');</script></span><br>
+<b id="cID3">   Init<script>countdown(30,'cID3');</script></b><br> -->
+<div id="cID4"> <script>countdown(dauer(),'cID4');</script></div>
+</body>
+</html>
+
+
