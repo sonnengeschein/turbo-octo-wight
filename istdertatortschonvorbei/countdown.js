@@ -37,7 +37,8 @@ function countdowntill(time,id){
   s = (s < 10) ? "0"+s : s;
  
   // Ausgabestring generieren
-  strZeit = "Ja, und der nächste Tatort beginnt in: " + d + h + ":" + m + ":" + s;
+  document.getElementById("textfield").innerHTML = "Ja, und der n&auml;chste Tatort beginnt in: ";
+  strZeit = d + h + ":" + m + ":" + s;
  
   // Falls der Countdown noch nicht zurückgezählt ist
   if(time > 0)
@@ -82,7 +83,8 @@ function countdownwhile(time,id){
   s = (s < 10) ? "0"+s : s;
  
   // Ausgabestring generieren
-  strZeit = "Nein, der Tatort dauert noch: " + d + h + ":" + m + ":" + s;
+  document.getElementById("textfield").innerHTML = "Nein, der Tatort dauert noch: ";
+  strZeit = d + h + ":" + m + ":" + s;
  
   // Falls der Countdown noch nicht zurückgezählt ist
   if(time > 0)

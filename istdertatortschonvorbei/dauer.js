@@ -1,4 +1,4 @@
-var tatort = new Date (2014,9,8,21,16);
+var tatort = new Date (2014,9,9,21,16);
 
 function dauer()
 {
@@ -14,6 +14,10 @@ function decision()
 	if (dauer() > 0)
 	{
 		countdowntill(dauer(),'cID4');
+	}
+	if (dauer() < -1,5*60*60)
+	{
+		document.getElementById("textfield").innerHTML = "JA!";
 	}
 	else
 	{
